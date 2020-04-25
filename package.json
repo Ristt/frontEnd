@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "@umijs/hooks": "^1.9.2",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.11",
     "antd": "^4.0.3",

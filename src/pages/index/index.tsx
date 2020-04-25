@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.less';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { history } from 'umi';
 
 import { Layout, Menu } from 'antd';
@@ -8,6 +8,14 @@ import { Layout, Menu } from 'antd';
 // 组件
 const { Header, Footer, Sider, Content } = Layout;
 const { SubMenu } = Menu;
+
+function Example() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
+}
 
 export default (props: any) => {
   //
