@@ -7,7 +7,7 @@ export default defineConfig({
       component: '@/pages/index/index',
       routes: [
         { path: '/layout', component: '@/pages/list/index' },
-        { path: '/list', component: '@/pages/layout/index' },
+        { path: '/list', component: '@/pages/layouts/index' },
       ],
     },
   ],

@@ -40,32 +40,17 @@ export default (props: any) => {
               Option 2
             </Menu.Item>
           </Menu.ItemGroup>
-          {/* <Menu.ItemGroup key="g2" title="Item 2">
-          <Menu.Item key="3">Option 3</Menu.Item>
-          <Menu.Item key="4">Option 4</Menu.Item>
-        </Menu.ItemGroup> */}
         </SubMenu>
       </Menu>
     );
   };
 
-  const onHandleClick = () => {
-    console.log(1);
-  };
+  const onHandleClick = () => {};
 
   const onHistoryPage = (pagePath: string) => {};
 
   return (
     <div>
-      {/* <Layout>
-        <Header className={styles.bgColor}>Header</Header>
-        <Layout className={styles.pageContent}>
-          <Sider style={{ minWidth: 256 }} className={styles.bgColor}>{renderMenuSider()}</Sider>
-          <Content>content</Content>
-        </Layout>
-        <Footer>Footer</Footer>
-      </Layout> */}
-
       <Layout>
         <Sider trigger={null} collapsible>
           <div className="logo" />
@@ -89,13 +74,7 @@ export default (props: any) => {
           </Menu>
         </Sider>
         <Layout>
-          <Header style={{ background: '#fff', padding: 0 }}>
-            {/* <Icon
-              className="trigger"
-              type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
-              onClick={this.toggle}
-            /> */}
-          </Header>
+          <Header style={{ background: '#fff', padding: 0 }}>1</Header>
           <Content
             style={{
               margin: '24px 16px',
